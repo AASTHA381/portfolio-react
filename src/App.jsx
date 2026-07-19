@@ -238,12 +238,12 @@ function CaseStudies() {
                     <a href={c.code} target="_blank" rel="noreferrer" className="rounded-[10px] border border-slate-200 px-[15px] py-[9px] text-[13px] font-semibold text-slate-600 hover:border-violet-500 hover:text-slate-900">Code</a>
                   </div>
                 </div>
-                <div className="grid min-h-[280px] place-items-center p-[26px]" style={{ background: c.bg }}>
-                  <div className="w-full max-w-[430px] overflow-hidden rounded-xl border border-white/80 bg-white shadow-[0_24px_54px_-22px_rgba(15,23,42,.38)] transition-transform duration-500 hover:-translate-y-1.5 hover:scale-[1.02]">
-                    <div className="flex h-[26px] items-center gap-[5px] border-b border-slate-100 bg-slate-100 px-[11px]">
+                <div className="grid min-h-[340px] p-[22px]" style={{ background: c.bg }}>
+                  <div className="flex h-full w-full flex-col overflow-hidden rounded-xl border border-white/80 bg-white shadow-[0_24px_54px_-22px_rgba(15,23,42,.38)] transition-transform duration-500 hover:-translate-y-1.5 hover:scale-[1.02]">
+                    <div className="flex h-[26px] flex-none items-center gap-[5px] border-b border-slate-100 bg-slate-100 px-[11px]">
                       <span className="h-2 w-2 rounded-full bg-red-400" /><span className="h-2 w-2 rounded-full bg-amber-400" /><span className="h-2 w-2 rounded-full bg-emerald-400" />
                     </div>
-                    <div className="aspect-[16/10] overflow-hidden bg-white">
+                    <div className="min-h-[220px] flex-1 overflow-hidden bg-white">
                       <img loading="lazy" src={c.img} alt={c.name} className="h-full w-full object-cover object-top" />
                     </div>
                   </div>
@@ -396,7 +396,6 @@ export default function App() {
       <Capabilities />
       <CaseStudies />
       <Timeline />
-      <Marquee />
       <Contact />
       <footer className="border-t border-slate-100 py-6 text-[13px] text-slate-400">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2.5 px-6">
