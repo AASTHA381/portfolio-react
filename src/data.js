@@ -20,7 +20,7 @@ export const featured = [
     blurb: "An AI decision engine that reasons over a user's budget, spending & goals to give an objective Buy / Wait / Don't-buy verdict — analytics + LLM reasoning over real data.",
     kpis: [[3, '', 'Feature phases'], [8, '', 'REST endpoints'], [100, '%', 'Reasoning shown']],
     tags: ['Node.js', 'Express', 'Groq LLM', 'Product Analytics', 'PWA'],
-    img: RAW + '/SmartCart/main/docs/screenshots/01-landing.png',
+    img: RAW + '/SmartCart/main/docs/screenshots/01-landing.png?v=2',
     read: 'https://github.com/AASTHA381/SmartCart/blob/main/docs/PRD.md',
     live: 'https://smartcart-c2ci.onrender.com', code: 'https://github.com/AASTHA381/SmartCart',
     bg: 'linear-gradient(140deg,#eef2ff,#ecfeff)',
@@ -30,7 +30,7 @@ export const featured = [
     blurb: 'A B2B-style matching platform ranking teammates by complementary skills, availability & goals — real-time sync with server-enforced ownership.',
     kpis: [[146, '', 'Users on live batch'], [39, '', 'Subjects modelled'], [100, '%', 'Owner-enforced']],
     tags: ['Firebase', 'Firestore', 'Auth', 'Matching Engine', 'B2B'],
-    img: RAW + '/TeamMatch/main/docs/screenshots/01-signin.png',
+    img: RAW + '/TeamMatch/main/docs/screenshots/01-signin.png?v=2',
     read: 'https://github.com/AASTHA381/TeamMatch/blob/main/docs/PRD.md',
     live: 'https://aastha381.github.io/TeamMatch/', code: 'https://github.com/AASTHA381/TeamMatch',
     bg: 'linear-gradient(140deg,#f0fdfa,#eef2ff)',
@@ -40,7 +40,7 @@ export const featured = [
     blurb: 'A live financial-planning cockpit for a trek-tourism founder: capital allocation, a 0–100 readiness score and real-time risk alerts on runway, margin & break-even.',
     kpis: [[7, '', 'Capital categories'], [100, '', 'Readiness score'], [50, 'L', 'Capital modelled ₹']],
     tags: ['Financial Modelling', 'Data Viz', 'Reactive UI', 'Client Work'],
-    img: RAW + '/yatrayatri-planner/main/docs/screenshots/01-planner.png',
+    img: RAW + '/yatrayatri-planner/main/docs/screenshots/01-planner.png?v=2',
     read: 'https://github.com/AASTHA381/yatrayatri-planner/blob/main/docs/PRD.md',
     live: 'https://aastha381.github.io/yatrayatri-planner/', code: 'https://github.com/AASTHA381/yatrayatri-planner',
     bg: 'linear-gradient(140deg,#fef2f2,#f5f3ff)',
@@ -50,7 +50,7 @@ export const featured = [
     blurb: "A scheduling engine computing the earliest safe bedtime from a user's real day, with photo-to-dismiss alarms verified on-device via ML — privacy-first.",
     kpis: [[8, 'h', 'Min sleep guaranteed'], [100, '%', 'On-device ML'], [3, '', 'Input signals']],
     tags: ['TensorFlow.js', 'Firebase', 'Rules Engine', 'PWA'],
-    img: RAW + '/DayFlow-Sleep-Planner/main/docs/screenshots/02-planner.png',
+    img: RAW + '/DayFlow-Sleep-Planner/main/docs/screenshots/02-planner.png?v=2',
     read: 'https://github.com/AASTHA381/DayFlow-Sleep-Planner/blob/main/docs/PRD.md',
     live: 'https://aastha381.github.io/DayFlow-Sleep-Planner/', code: 'https://github.com/AASTHA381/DayFlow-Sleep-Planner',
     bg: 'linear-gradient(140deg,#eff6ff,#f5f3ff)',
@@ -58,9 +58,9 @@ export const featured = [
 ]
 
 export const more = [
-  { name: 'FoodMatch', dom: 'Social · real-time', d: 'Tinder-style group restaurant matcher — everyone swipes, first mutual match wins.', img: RAW + '/tinder-style-restaurant-matcher/main/docs/screenshots/01-home.png', prd: 'https://github.com/AASTHA381/tinder-style-restaurant-matcher/blob/main/docs/PRD.md' },
-  { name: 'PM Study Planner', dom: 'Habit · learning', d: 'Flexible daily study planner with streaks, progress grids and a monthly heatmap.', img: RAW + '/pm-study-planner/main/docs/screenshots/01-today.png', prd: 'https://github.com/AASTHA381/pm-study-planner/blob/main/docs/PRD.md' },
-  { name: 'ClassTrack', dom: 'Analytics utility', d: "Attendance tracker that surfaces a live 'safe skips left' number per subject.", img: RAW + '/Attendence-Tracker-App/main/docs/screenshots/01-dashboard.png', prd: 'https://github.com/AASTHA381/Attendence-Tracker-App/blob/main/docs/PRD.md' },
+  { name: 'FoodMatch', dom: 'Social · real-time', d: 'Tinder-style group restaurant matcher — everyone swipes, first mutual match wins.', img: RAW + '/tinder-style-restaurant-matcher/main/docs/screenshots/01-home.png?v=2', prd: 'https://github.com/AASTHA381/tinder-style-restaurant-matcher/blob/main/docs/PRD.md' },
+  { name: 'PM Study Planner', dom: 'Habit · learning', d: 'Flexible daily study planner with streaks, progress grids and a monthly heatmap.', img: RAW + '/pm-study-planner/main/docs/screenshots/01-today.png?v=2', prd: 'https://github.com/AASTHA381/pm-study-planner/blob/main/docs/PRD.md' },
+  { name: 'ClassTrack', dom: 'Analytics utility', d: "Attendance tracker that surfaces a live 'safe skips left' number per subject.", img: RAW + '/Attendence-Tracker-App/main/docs/screenshots/01-dashboard.png?v=2', prd: 'https://github.com/AASTHA381/Attendence-Tracker-App/blob/main/docs/PRD.md' },
   { name: 'LinkVault', dom: 'Productivity · AI', d: 'Chrome extension that saves links & docs with AI-generated summaries + search.', img: null, emoji: '🔗', prd: 'https://github.com/AASTHA381/link-vault-extension/blob/main/docs/PRD.md' },
 ]
 
