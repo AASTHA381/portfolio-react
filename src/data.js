@@ -74,16 +74,12 @@ export const experience = [
     points: 'Built an MIS Excel dashboard from scratch (FY 2026–27) with head-wise, payment-mode & monthly-trend views; compiled a 5-year CSR impact report; drove college outreach & exhibition partnerships for Project Samarth.',
   },
   {
-    when: '2025 — Present', title: 'MBA — NMIMS', org: 'Product / Marketing specialisation',
-    points: 'Coursework: Product Strategy, Consumer Behaviour, AI for Managers, Business Analytics.',
-  },
-  {
     when: 'Aug 2022 — May 2025', title: 'Analyst', org: 'HCLTech · Noida, India',
     points: 'Built automated financial reporting with Python & SQL (−60% manual cost); Power BI & Tableau dashboards tracking ROI & cost KPIs (+25% response time); improved ETL efficiency and built CI/CD pipelines.',
   },
 ]
 
 export const certs = [
-  '🤖 AI for Product Management', '🎓 MBA — Product / Marketing', '📊 Power BI', '📉 Tableau',
+  '🤖 AI for Product Management', '📊 Power BI', '📉 Tableau',
   '🗄️ SQL', '🐍 Python', '🔍 Competitor Benchmarking', '🧪 App Audits', '🔁 Agile · Jira', '🧭 Product Strategy',
 ]

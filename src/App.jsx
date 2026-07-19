@@ -330,7 +330,7 @@ function Marquee() {
   return (
     <section className="px-6 pb-24">
       <div className="mx-auto max-w-6xl">
-        <Reveal className="mb-6"><Eyebrow>Credentials</Eyebrow><h2 className="mt-3 text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-0.03em]">Certifications & education</h2></Reveal>
+        <Reveal className="mb-6"><Eyebrow>Credentials</Eyebrow><h2 className="mt-3 text-[clamp(28px,4vw,44px)] font-extrabold tracking-[-0.03em]">Certifications</h2></Reveal>
       </div>
       <div className="space-y-3.5">
         {lane(certs, 'track-l')}
