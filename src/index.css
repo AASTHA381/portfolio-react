@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { font-family: Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+::selection { background: #ddd6fe; color: #0f172a; }
+
+.grad-text {
+  background: linear-gradient(120deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Marquee lanes */
+@keyframes mLeft { to { transform: translateX(-50%); } }
+@keyframes mRight { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+.track-l { animation: mLeft 30s linear infinite; }
+.track-r { animation: mRight 30s linear infinite; }
+.marquee:hover .track-l, .marquee:hover .track-r { animation-play-state: paused; }
+
+/* Confetti */
+@keyframes cf { to { transform: translateY(115vh) rotate(680deg); opacity: .9; } }
+.confetti-piece { position: fixed; width: 8px; height: 13px; border-radius: 2px; top: -10vh; pointer-events: none; z-index: 120; animation: cf linear forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
