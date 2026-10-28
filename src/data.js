@@ -3,7 +3,7 @@ const RAW = 'https://raw.githubusercontent.com/AASTHA381'
 export const LINKEDIN = 'https://www.linkedin.com/in/aastha-saini03/'
 export const EMAIL = '381aastha@gmail.com'
 export const GITHUB = 'https://github.com/AASTHA381'
-export const RESUME = 'https://aastha381.github.io/portfolio/resume/Aastha-Saini-Resume.pdf'
+export const RESUME = 'https://aastha381.github.io/portfolio/resume/Aastha-Saini-Product-Resume.pdf'
 
 export const capabilities = [
   { icon: '📊', title: 'Data Analytics & Visualization', desc: 'Turning raw data into dashboards & decisions.' },
@@ -22,7 +22,7 @@ export const featured = [
     tags: ['Node.js', 'Express', 'Groq LLM', 'Product Analytics', 'PWA'],
     img: RAW + '/SmartCart/main/docs/screenshots/01-landing.png?v=2',
     read: 'https://github.com/AASTHA381/SmartCart/blob/main/docs/PRD.md',
-    live: 'https://smartcart-c2ci.onrender.com', code: 'https://github.com/AASTHA381/SmartCart',
+    live: 'https://aastha381.github.io/SmartCart/', code: 'https://github.com/AASTHA381/SmartCart',
     bg: 'linear-gradient(140deg,#eef2ff,#ecfeff)',
   },
   {
